@@ -2,6 +2,7 @@
     /*スマホ用のcssを記述*/
 /*   top-botton   */
     #page-top {
+       display:none;
     position: fixed;
     z-index:10000;
     bottom: 10px;
