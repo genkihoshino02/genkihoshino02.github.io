@@ -1,5 +1,12 @@
 @media screen and (max-width:639px) {
     /*スマホ用のcssを記述*/
+/*   top-botton   */
+    #page-top {
+    position: fixed;
+    z-index:10000;
+    bottom: 10px;
+  
+}
     .font-1{
         margin-left: 0;
         font-size: 25px;
