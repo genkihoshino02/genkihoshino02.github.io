@@ -47,7 +47,7 @@ nav{
 }
 #page-top {
     position: fixed;
-    
+    z-index:10000;
     bottom: 100px;
     right: 50px;
     font-size: 77%;
