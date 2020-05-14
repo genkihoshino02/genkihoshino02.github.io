@@ -1,0 +1,247 @@
+@media screen and (max-width:639px) {
+    /*スマホ用のcssを記述*/
+    .font-1{
+        margin-left: 0;
+        font-size: 25px;
+    }
+    .headline{
+        width: 60%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    /* section1 */
+    .section1-content img{
+        height: 600px;
+        width: 100%;
+    }
+    .section1-content h2{
+        font-size: 20px;
+
+    }
+   
+    /* section2 */
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section2-content{
+        margin-top: 50px;
+    }
+    .imgaboutme{
+        text-align: center;
+    }
+    .imgaboutme img{
+        width: 60%;
+        height: 300px;
+        
+    }
+    .aboutmetext{
+        padding: 0 20px 0 20px;
+        
+    }
+    .aboutmetext span{
+        font-size: 20px!important;
+    }
+    .aboutmetext h2{
+        text-align: center;
+    }
+    .aboutmetext p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* sectiion3 */
+.skills-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  ;
+}
+.skill{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.skill-title{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 30px!important;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+.skill-text{
+    font-size: 18px;
+}
+
+/* section5 */
+ .work-wrapper{
+    text-align: center;
+    
+}  
+
+.work{
+    margin: 30px;
+    margin: 0px auto;
+}
+.worktitle{
+    margin-bottom: 30px;
+    margin: 0px auto!important;
+}
+.work-name{
+    padding: 0px!important;
+    margin: 0px auto!important;
+    width: 93%;
+    text-align: center;
+  
+}
+
+.work-name span{
+    font-size: 15px;
+}
+.work-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    width: 100%;
+    text-align: center!important;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 30px!important;
+    font-weight: bold;
+}
+
+.image-work {
+    width: 80%;
+    margin: 0px auto;
+    
+    margin-bottom: 30px;
+}
+.image-work img{
+    width: 100%;
+    text-align: center;
+}
+.work-line-1{
+    border-top: 2px solid black;
+    text-align: center;
+   
+} 
+.work-line-2{
+    border-top: 2px solid black;
+    text-align: center;
+} 
+.work1{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+.work2{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+/* section6 */
+    .gallary{
+        margin: 2px;
+        height: 100px;
+        width: 100px;
+    }
+
+.section6-content{
+    margin-bottom: 20px;
+}
+
+
+/* section7 */
+#form{
+    width: 100%;
+}
+.section7-content{
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper{
+    
+    margin: 0px;
+    width: 100%;
+}
+.genki-wrapper{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    
+  
+}
+
+/* footer */
+footer h1{
+    font-size: 20px;
+}
+
+
+    }
+       
+    @media only screen and (min-width:640px) and (max-width:1023px) {
+    /*tablet用のcssを記述*/
+    .font-1{
+        margin-left: 0;
+    }
+    .gallary{
+        margin: 2px;
+        height: 150px;
+        width: 150px;
+    }
+    /* section1 */
+    .section1-content h2{
+        font-size: 30px;
+    }
+
+    
+
+
+    /* section5 */
+    .work-wrapper{
+        text-align: center;
+    }
+    .work1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .work2{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    
+    .image-work {
+        width: 80%;
+        margin: 0px auto;
+        
+        margin-bottom: 30px;
+    }
+    .image-work img{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* section7 */
+    .section7-content{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+
+
+      
+    @media screen and (min-width:1024px) {
+    /*pc用のcssを記述*/
+
+    }
+}
