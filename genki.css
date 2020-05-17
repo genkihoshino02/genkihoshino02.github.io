@@ -308,6 +308,10 @@ textarea{
   border: 2px solid white;
 }
 
+.end-message , .false-message{
+    display: none;
+}
+
 /* footer */
 footer{
     background-color: black;
